@@ -1,0 +1,20 @@
+{
+  "db_name": "SQLite",
+  "query": "SELECT COUNT(*) AS num_before FROM links",
+  "describe": {
+    "columns": [
+      {
+        "name": "num_before",
+        "ordinal": 0,
+        "type_info": "Int"
+      }
+    ],
+    "parameters": {
+      "Right": 0
+    },
+    "nullable": [
+      false
+    ]
+  },
+  "hash": "14894e6aa9a3b0bb61fc40fe0104f17bc8106bcfde4c670c42401be994e0c36f"
+}

@@ -1,0 +1,50 @@
+{
+  "db_name": "SQLite",
+  "query": "\n\t\t\tSELECT * FROM links\n\t\t\tWHERE id = $1;\n\t\t\tUPDATE links\n\t\t\tSET invocations = invocations + 1\n\t\t\tWHERE id = $2;\n\t\t\t",
+  "describe": {
+    "columns": [
+      {
+        "name": "id",
+        "ordinal": 0,
+        "type_info": "Text"
+      },
+      {
+        "name": "redirect_to",
+        "ordinal": 1,
+        "type_info": "Text"
+      },
+      {
+        "name": "max_uses",
+        "ordinal": 2,
+        "type_info": "Int64"
+      },
+      {
+        "name": "invocations",
+        "ordinal": 3,
+        "type_info": "Int64"
+      },
+      {
+        "name": "created_at",
+        "ordinal": 4,
+        "type_info": "Int64"
+      },
+      {
+        "name": "valid_for",
+        "ordinal": 5,
+        "type_info": "Int64"
+      }
+    ],
+    "parameters": {
+      "Right": 2
+    },
+    "nullable": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  "hash": "1ae8b7d2b93139fb6003bef62fc0ece8933cb321c2ca4e54187c176ad6a1abe0"
+}

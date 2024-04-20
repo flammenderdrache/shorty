@@ -1,0 +1,12 @@
+{
+  "db_name": "SQLite",
+  "query": "\n\t\t\tDELETE FROM links\n\t\t\tWHERE max_uses != 0 AND invocations > max_uses\n\t\t\tOR created_at + valid_for < $1\n\t\t\t",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 1
+    },
+    "nullable": []
+  },
+  "hash": "32d9c61217980862c7b1e2755b4f00b99127c8ffa4305d501950fbb31239304c"
+}

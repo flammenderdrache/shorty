@@ -1,0 +1,12 @@
+{
+  "db_name": "SQLite",
+  "query": "\n\t\t\t\tINSERT OR REPLACE INTO links\n\t\t\t\tVALUES ($1, $2, $3, $4, $5, $6)\n\t\t\t",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 6
+    },
+    "nullable": []
+  },
+  "hash": "faf5fa247c55cd95f7dcec50b6ec85c3641cfa57d32fa052e4dfb3687c517c5c"
+}

@@ -1,0 +1,50 @@
+{
+  "db_name": "SQLite",
+  "query": "\n\t\t\tSELECT * FROM links\n\t\t\tWHERE id = $1;\n\t\t\t",
+  "describe": {
+    "columns": [
+      {
+        "name": "id",
+        "ordinal": 0,
+        "type_info": "Text"
+      },
+      {
+        "name": "redirect_to",
+        "ordinal": 1,
+        "type_info": "Text"
+      },
+      {
+        "name": "max_uses",
+        "ordinal": 2,
+        "type_info": "Int64"
+      },
+      {
+        "name": "invocations",
+        "ordinal": 3,
+        "type_info": "Int64"
+      },
+      {
+        "name": "created_at",
+        "ordinal": 4,
+        "type_info": "Int64"
+      },
+      {
+        "name": "valid_for",
+        "ordinal": 5,
+        "type_info": "Int64"
+      }
+    ],
+    "parameters": {
+      "Right": 1
+    },
+    "nullable": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  "hash": "7665d4546ee05e45bbc0328179635162c0f0a70038a3c3a1b3f77d49cb5a69b6"
+}
