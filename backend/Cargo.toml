@@ -3,7 +3,7 @@ name = "shorty"
 version = "0.8.5"
 edition = "2021"
 
-authors = ["flamion <git@flamion.dev>", "FlareFlo <mail@flareflo.dev>", "Jonas Crull <dev@jonascrull.de>"]
+authors = ["flamion <shorty@flamion.dev>", "FlareFlo <mail@flareflo.dev>", "Jonas Crull <dev@jonascrull.de>"]
 description = "Small link shortener"
 license = "Apache-2.0"
 
